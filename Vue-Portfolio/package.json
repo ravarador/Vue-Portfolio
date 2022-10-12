@@ -8,6 +8,8 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
     "vue": "^3.2.38",
     "vue-router": "^4.1.5"
   },
@@ -18,6 +20,7 @@
     "eslint": "^8.22.0",
     "eslint-plugin-vue": "^9.3.0",
     "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.8",
     "vite": "^3.0.9"
   }
 }
